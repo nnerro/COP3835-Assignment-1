@@ -1,0 +1,8 @@
+/* Question 5: External CSS */
+/* Modifys appearance of body elements */
+body {
+    font-family: "Arial", sans-serif; /* Changes font style */
+    background-color: #EEB5FF; /* Creates light purple page background */
+    color: #4d2a0e;             /* Dark brown text color */
+    text-align: center                /* Adjusts alignment to center */
+}
