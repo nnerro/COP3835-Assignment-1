@@ -1,8 +1,42 @@
 /* Question 5: External CSS */
-/* Modifys appearance of body elements */
+/* Modifys appearance of the entire page*/
 body {
-    font-family: "Arial", sans-serif; /* Changes font style */
-    background-color: #EEB5FF; /* Creates light purple page background */
-    color: #4d2a0e;             /* Dark brown text color */
-    text-align: center                /* Adjusts alignment to center */
+    font-family: "Arial", sans-serif; 
+    background-color: #F8F8FF; /* Changes page background color to light purple */
+    color: #4d2a0e;             /* Changes text color to dark brown */    
 }
+/* Modifies main heading appearance */
+h1 {
+    font-size: 42px; 
+    margin-bottom: 15px;
+}
+/* End of Question 5 */
+
+/* Modifies links in navbar to have a consistent white color when clicked */
+a:link {
+    color:white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* Question 6: CSS Selectors */
+/* Modifies navigation bar background color to purple */
+#navbar {
+    background-color: #4B0082;
+}
+/* Modifies hero class divider appearance */
+.hero {
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: black;
+}
+/* Modifies content class divider appearance */
+.content {
+    background-color: #6A5ACD;
+}
+/* End of Question 6 */

@@ -1,25 +1,37 @@
 <!DOCTYPE html>
+<!--
+#F8F8FF
+#8A2BE2
+#4B0082
+#6A5ACD
+#483D8B
+-->
 <!-- Question 1: HTML Structure -->
 <!-- This section creates the title shown in the tab of the browser, main and secondary headings, two paragraphs, and an ordered list. -->
  <html>
     <head>
-        <title>My Website</title>
+        <title>Wisteria</title>
 <!-- This line links the html document to the stylesheet that modifies the website's appearance. -->
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Welcome to my website!</h1>
 <!-- Question 4: Navigation and Semantic HTML -->
-<!-- This section displays a navigation bar at the top of the page with links to corresponding elements on the page with the matching id.-->
-        <nav>
+<!-- Displays a navigation bar at the top of the page with links to corresponding elements of the matching id.-->
+        <nav id="navbar">
             <a href="#">Home</a>
             <a href="#About">About</a>
             <a href="#Services">Services</a>
             <a href="mailto:someone@example.com">Contact</a>
         </nav>
+<!-- End of Question 4 -->
+        <div class="hero">
+            <h1>Welcome!</h1>
+            <p>Wisteria is a vine of fragrant lavender flowers.</p>
+        </div>  
 <!-- Question 2: Images and Accessibility -->
 <!-- This line generates an image saved within the same project folder and displays it along with alternative text describing what the image shows. -->
-        <img src="background.jpg" alt="Purple Wisteria flowers" width="539" height="360">
+        <img src="wisteria-tree.jpg" alt="Purple Wisteria flowers" width="539" height="360">
+<!-- End of Question 2 -->
         <h2 id="About">About: What is HTML and CSS?</h2>
         <p>This website was made using HTML. HTML stands for Hypertext Markup Language which describes the structure of the website. HTML instructs the browser what to display.</p>
         <p>CSS is another language that modifies how HTML is displayed. It is what gives websites personality and style.</p>
@@ -28,18 +40,21 @@
 
         <h2 id="Services">Services: Examples of HTML elements</h2>
 
-        <h3>Ordered List</h3>
+        <h3>3 Facts About The Beautiful Wisteria Plant</h3>
         <ol>
-            <li>Coffee</li>
-            <li>Milk</li>
-            <li>Tea</li>
+            <li>Wisteria is in the same family as peas and beans!</li>
+            <li>Wisteria vines are invasive in Florida.</li>
+            <li>Wisteria is toxic!</li>
         </ol>
-
+        <div class="content">
 <!-- Question 3: Hyperlinks -->
 <!-- This section creates three hyperlinks, one to an external website, the second to a mail link within the same tab, and the last to a new browser tab.-->
-        <h3>Hyperlinks</h3>
-        <a href="https://youtube.com">YouTube</a>
-        <a href="mailto:someone@example.com">Send Email</a>
-        <a href="https://google.com" target="_blank">New Google Tab</a>
+            <h3>Learn More</h3>
+            <a href="https://youtube.com">YouTube</a>
+            <a href="mailto:someone@example.com">Send Email</a>
+            <a href="https://google.com" target="_blank">New Google Tab</a>
+<!-- End of Question 3 -->
+        </div>
     </body>
+<!-- End of Question 1-->
  </html>
