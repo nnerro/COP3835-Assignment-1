@@ -6,7 +6,7 @@ body {
     color: white;             /* Changes text color to dark brown */  
 /* Question 10: CSS Background Image */
 /* This section adds a background image to the entire page and centers it */
-    background-image: url(background.png);
+    background-image: url(background.jpg);
     background-size: cover;
     background-position: center;
 /* End of Question 10 */
@@ -35,14 +35,15 @@ a:visited {
 /* Modifies navigation bar background color to purple */
 #navbar {
     background-color: #4B0082;
+    padding: 20px;
 }
 /* Modifies hero class divider appearance */
 .hero {
-    background-image: url("hero.jpg");
+    background-image: url("background.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
-    color: black;
+    color: white;
 }
 /* Modifies content class divider appearance */
 .content {
