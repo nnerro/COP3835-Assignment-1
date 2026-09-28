@@ -2,8 +2,17 @@
 /* Modifys appearance of the entire page*/
 body {
     font-family: "Arial", sans-serif; 
-    background-color: #F8F8FF; /* Changes page background color to light purple */
-    color: #4d2a0e;             /* Changes text color to dark brown */    
+    background-color: #4B0082; /* Changes page background color to purple */
+    color: white;             /* Changes text color to dark brown */  
+/* Question 10: CSS Background Image */
+/* This section adds a background image to the entire page and centers it */
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+/* End of Question 10 */
+}
+p, ol, h2, h3, h4, h5, h6 {
+    background-color: black;
 }
 /* Modifies main heading appearance */
 h1 {
@@ -40,3 +49,47 @@ a:visited {
     background-color: #6A5ACD;
 }
 /* End of Question 6 */
+
+/* Question 7: CSS Box Model and Question 8: Flexbox and Responsive Design */
+/* This section changes the appearance of card divider elements so they are easily visible */
+.cards {
+    display: flex; /* Allows the cards to remain in the same relative position as browser display narrows. */
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    padding: 30px; /* Creates a space of 30px around the text */
+    margin: 30px; /* Creates a space of 30px around each card */
+    border: 2px solid #6A5ACD; /* Creates a purple border on each card */
+    background-color: white;
+    color: black;
+    box-shadow: 0 8px 20px gray; /* Adds a gray shadow to increase visibility of each card */
+}
+/* End of Question 7 and Question 8 */
+
+/* Question 9: */
+.button1 {
+    background-color: brown;
+}
+.button2 {
+    background-color: black;
+}
+.button3 {
+    background-color: purple;
+}
+/* Styles all buttons */
+button {
+    color: white; /* Changes button text color to white */
+    padding: 15px 25px;
+    border: 2px solid gray;
+    border-radius: 8px; /* Creates rounded corners on each button */
+    cursor: pointer; /* Changes cursor to pointer when hovering over button */
+}
+/* Changes background color when hovering or clicking buttons */
+button:hover {
+    background-color: green;
+}
+button:active {
+    background-color: red;
+}
+/* End of Question 9 */
